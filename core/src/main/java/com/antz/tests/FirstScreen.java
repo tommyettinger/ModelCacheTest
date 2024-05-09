@@ -35,7 +35,7 @@ public class FirstScreen implements Screen {
 
     public SceneManager sceneManager;
     public Scene scene;
-    public Array<Scene> allModels = new Array<Scene>();
+    public Array<Scene> allModels = new Array<>();
     public SceneAsset sceneAsset;
     public DirectionalShadowLight light;
     public Cubemap diffuseCubemap;
