@@ -57,7 +57,6 @@ public class FirstScreen implements Screen {
     private void initGLTF() {
         sceneManager = new SceneManager();
 
-        // setup camera (The BoomBox model is very small so you may need to adapt camera settings for your scene)
         camera = new PerspectiveCamera(67f, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         camera.near = 0.001f;
         camera.far = 200;
@@ -144,6 +143,7 @@ public class FirstScreen implements Screen {
 
     @Override
     public void resize(int width, int height) {
+        sceneManager.updateViewport(width, height);
         // Resize your screen here. The parameters represent the new window size.
     }
 
