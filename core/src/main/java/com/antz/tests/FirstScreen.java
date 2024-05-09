@@ -17,7 +17,6 @@ import com.badlogic.gdx.utils.ScreenUtils;
 import com.badlogic.gdx.utils.TimeUtils;
 
 import net.mgsx.gltf.loaders.glb.GLBLoader;
-import net.mgsx.gltf.loaders.gltf.GLTFLoader;
 import net.mgsx.gltf.scene3d.attributes.PBRTextureAttribute;
 import net.mgsx.gltf.scene3d.lights.DirectionalShadowLight;
 import net.mgsx.gltf.scene3d.scene.Scene;
